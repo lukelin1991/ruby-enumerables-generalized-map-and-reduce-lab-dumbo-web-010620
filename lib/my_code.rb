@@ -24,9 +24,3 @@ def reduce(source_array, sv = nil)
   end
   return sum
 end
-
-# maps w/ block here ---------------------------------------
-map(n){|n| n * -1}
-binding.pry
-
-# reduce w/ block here -------------------------------------
