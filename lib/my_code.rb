@@ -11,7 +11,7 @@ end
 
 def reduce(source_array, sv = nil)
   if sv
-    sum - sv
+    sum = sv
     idx = 0
   else
     sum = array[0]
