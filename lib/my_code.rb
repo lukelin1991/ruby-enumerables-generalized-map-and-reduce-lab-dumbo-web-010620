@@ -24,3 +24,7 @@ def reduce(source_array, sv = nil)
   end
   return sum
 end
+
+# maps w/ block here ---------------------------------------
+
+# reduce w/ block here -------------------------------------
