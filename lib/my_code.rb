@@ -8,3 +8,12 @@ def map(source_array)
   end
   return new
 end
+
+def reduce(source_array, sv = nil)
+  if sv
+    sum - sv
+    i = 0
+  else
+    sum = array[0]
+    i = 1
+end
