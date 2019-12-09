@@ -26,7 +26,7 @@ def reduce(source_array, sv = nil)
 end
 
 # maps w/ block here ---------------------------------------
-map(source_array){|n| n * -1}
+map{|n| n * -1}
 binding.pry
 
 # reduce w/ block here -------------------------------------
