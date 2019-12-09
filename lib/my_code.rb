@@ -22,4 +22,5 @@ def reduce(source_array, sv = nil)
     sum = yield(sum, array[idx])
     i += 1
   end
+  sum
 end
