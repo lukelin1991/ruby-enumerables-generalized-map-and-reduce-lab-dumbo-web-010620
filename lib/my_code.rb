@@ -20,7 +20,7 @@ def reduce(source_array, sv = nil)
 
   while idx < source_array.length do
     sum = yield(sum, array[idx])
-    i += 1
+    idx += 1
   end
   return sum
 end
